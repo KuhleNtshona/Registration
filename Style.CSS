@@ -71,7 +71,7 @@ button:hover {
 /* General page background */
 body {
 
-      background-image: url('file:///C:/Users/Admin/Pictures/Student-Registration/IMG-20250221-WA0010.jpg'); /* Correct path to your image */
+      background-image: url('images/IMG-20250221-WA0010.jpg'); /* Correct path to your image */
       background-size: cover;
       background-position: center;
       font-family: Arial, sans-serif;
