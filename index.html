@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+    <link rel="stylesheet" href="Style.CSS">
+</head>
+<body>
+    <header>
+        <h1>CodeTelligence Academy</h1>
+    </header>
+
+    <div class="container">
+        <h2>Student Registration Form</h2>
+        <form id="registrationForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <label for="course">Course:</label>
+            <select id="course" name="course" required>
+                <option value="" disabled selected>Select your course</option>
+                <option value="NQF 5 Software Development">NQF 5 Software Development</option>
+                <option value="Web Development Bootcamp">Web Development Bootcamp</option>
+                <option value="Technical Support Bootcamp">Technical Support Bootcamp</option>
+            </select>
+
+            <button type="submit">Register</button>
+        </form>
+    </div>
+
+   
+
+    <script src="script.js"></script>
+</body>
+</html>
